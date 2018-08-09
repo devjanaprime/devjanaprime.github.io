@@ -1,3 +1,8 @@
+body{
+ font-family: courier;
+ background-color: grey;
+}
+
 h2{
- color: red
+ color: red;
 }
