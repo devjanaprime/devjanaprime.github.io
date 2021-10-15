@@ -16,9 +16,10 @@ var toggle = function (elem) {
 		hide(elem);
 		return;
 	}
-
-	// Otherwise, show it
-	show(elem);
+	else{
+		// Otherwise, show it
+		show(elem);
+	}
 
 };
 
@@ -30,14 +31,14 @@ var toggleById = function ( id ) {
 toggleById( 'guitarChart0' );
 toggleById( 'bassChart0' );
 toggleById( 'drumChart0' );
-toggleById( 'guitarChart1' );
-toggleById( 'bassChart1' );
-toggleById( 'drumChart1' );
-toggleById( 'guitarChart3' );
-toggleById( 'bassChart3' );
-toggleById( 'drumChart3' );
+// toggleById( 'guitarChart1' );
+// toggleById( 'bassChart1' );
+// toggleById( 'drumChart1' );
 toggleById( 'guitarChart2' );
 toggleById( 'bassChart2' );
 toggleById( 'drumChart2' );
+toggleById( 'guitarChart3' );
+toggleById( 'bassChart3' );
+toggleById( 'drumChart3' );
 
 
