@@ -10,7 +10,6 @@ var hide = function (elem) {
 
 // Toggle element visibility
 var toggle = function (elem) {
-
 	// If the element is visible, hide it
 	if (window.getComputedStyle(elem).display != 'none') {
 		hide(elem);
@@ -20,7 +19,6 @@ var toggle = function (elem) {
 		// Otherwise, show it
 		show(elem);
 	}
-
 };
 
 var toggleById = function ( id ) {
@@ -28,17 +26,11 @@ var toggleById = function ( id ) {
     toggle( document.getElementById( id ) );
 };
 
-toggleById( 'guitarChart0' );
-toggleById( 'bassChart0' );
-toggleById( 'drumChart0' );
-// toggleById( 'guitarChart1' );
-// toggleById( 'bassChart1' );
-// toggleById( 'drumChart1' );
-toggleById( 'guitarChart2' );
-toggleById( 'bassChart2' );
-toggleById( 'drumChart2' );
-toggleById( 'guitarChart3' );
-toggleById( 'bassChart3' );
-toggleById( 'drumChart3' );
+hide( document.getElementById( 'guitarChart0' ) );
+hide( document.getElementById( 'bassChart0' ) );
+hide( document.getElementById( 'guitarChart1' ) );
+hide( document.getElementById( 'bassChart1' ) );
+hide( document.getElementById( 'guitarChart2' ) );
+hide( document.getElementById( 'bassChart2' ) );
 
 
